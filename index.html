@@ -373,6 +373,7 @@
             <div style="color:var(--ink-faint);"><span style="color:var(--sage); font-weight:600;">Optional add-on: </span><span id="workout-optional"></span></div>
             <div style="color:var(--ink-faint);"><span style="color:var(--rust); font-weight:600;">If energy is low: </span><span id="workout-skip"></span></div>
           </div>
+          <div id="workout-alternatives" style="margin-top:14px; display:none;"></div>
         </div>
 
         <div class="card">
@@ -418,7 +419,9 @@
           <div style="font-size:15px; font-weight:600; margin-bottom:10px;" id="lift-next"></div>
           <div style="font-size:13px; color:var(--ink-soft); margin-bottom:4px;"><span style="color:var(--ink-faint);">Main: </span><span id="lift-main"></span></div>
           <div style="font-size:13px; color:var(--ink-soft); margin-bottom:10px;"><span style="color:var(--ink-faint);">Accessory: </span><span id="lift-accessory"></span></div>
-          <div style="font-size:12.5px; color:var(--ink-faint); border-top:1px solid var(--border-strong); padding-top:10px;" id="lift-why"></div>
+          <div style="font-size:12.5px; color:var(--ink-faint); border-top:1px solid var(--border-strong); padding-top:10px; margin-bottom:10px;" id="lift-why"></div>
+          <button class="edit-toggle" id="lift-circuit-toggle">View full circuit</button>
+          <div id="lift-circuit-list" style="display:none; margin-top:10px; padding-top:10px; border-top:1px solid var(--border-strong);"></div>
         </div>
 
         <div class="card">
@@ -619,6 +622,26 @@
     document.getElementById('workout-main').innerHTML = w.main.map(x => `<div style="font-size:14px; padding:7px 12px; background:var(--card-raised); border-radius:7px; margin-bottom:5px;">${x}</div>`).join('');
     document.getElementById('workout-optional').textContent = w.optional;
     document.getElementById('workout-skip').textContent = w.skip;
+
+    const altEl = document.getElementById('workout-alternatives');
+    if (w.alternatives && w.alternatives.length > 0) {
+      altEl.style.display = 'block';
+      altEl.innerHTML = '<div style="font-size:11px; text-transform:uppercase; letter-spacing:0.04em; color:var(--ink-faint); margin-bottom:8px;">If plans change today</div>' +
+        w.alternatives.map((alt, i) => `
+          <div class="alt-item" data-alt-idx="${i}" style="cursor:pointer; padding:8px 12px; border:1px solid var(--border-strong); border-radius:8px; margin-bottom:6px; font-size:13px;">
+            <div style="font-weight:500; color:var(--accent);">${alt.condition}</div>
+            <div class="alt-body" style="display:none; margin-top:6px; color:var(--ink-soft);">${alt.recommendation}</div>
+          </div>
+        `).join('');
+      altEl.querySelectorAll('.alt-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const body = item.querySelector('.alt-body');
+          body.style.display = body.style.display === 'none' ? 'block' : 'none';
+        });
+      });
+    } else {
+      altEl.style.display = 'none';
+    }
   }
 
   function renderWeeklyTraining(week) {
@@ -646,6 +669,26 @@
     document.getElementById('lift-main').textContent = l.mainMovement;
     document.getElementById('lift-accessory').textContent = l.accessory;
     document.getElementById('lift-why').textContent = l.why;
+
+    const circuits = {
+      push: ["Prone Y raise", "High angle banded facepull", "Incline barbell bench press", "SS FFF (superset finisher)", "Flat DB bench press", "Seated lateral DB raise", "Decline EZ bar triceps extension", "Swiss ball DB crunch"],
+      pull: ["Plank hold + alternating shoulder taps", "Crossover symmetry high-to-low reverse flies", "Neutral grip chin-ups", "Barbell RDL (start light, slow tempo)", "Seated mid neutral-grip row", "High cable rope facepull", "High incline neutral-grip DB curl", "Swiss ball prone jackknife"],
+      lower: ["Landmine rainbows", "Prone alternating straddle runner", "Hex/trap bar deadlift", "Safety bar Hatfield squat", "Rear-foot-elevated split squat", "Lying leg curl", "Plank pull-through", "Reverse hyperextension", "Belt backward sled drag"],
+      torso: ["Table top lifts", "Bent-over bilateral trap 3 raise", "DB bench press", "Sumo stance elevated alternating KB/DB row", "Seated DB shoulder press", "Mid supinated lat pulldown", "High cable triceps rope pressdown", "Mid supinated EZ bar curl", "Med ball lateral lunge with downward reach", "Mid cable Pallof press", "Wall-leaning tibialis anterior raise", "Knees-over-toes calf raise"]
+    };
+    const nameLower = (l.nextLift || '').toLowerCase();
+    let matched = null;
+    if (nameLower.includes('push')) matched = circuits.push;
+    else if (nameLower.includes('pull')) matched = circuits.pull;
+    else if (nameLower.includes('lower')) matched = circuits.lower;
+    else if (nameLower.includes('torso')) matched = circuits.torso;
+
+    const listEl = document.getElementById('lift-circuit-list');
+    if (matched) {
+      listEl.innerHTML = matched.map(ex => `<div style="font-size:13px; padding:6px 0; border-bottom:1px solid var(--border);">${ex}</div>`).join('');
+    } else {
+      listEl.innerHTML = '<div style="font-size:12.5px; color:var(--ink-faint); font-style:italic;">No matching circuit found for this lift name.</div>';
+    }
   }
 
   function renderReadiness(r) {
@@ -758,6 +801,14 @@
   }
   wireEditToggle('edit-situation-toggle', 'edit-situation-panel');
   wireEditToggle('edit-training-toggle', 'edit-training-panel');
+
+  document.getElementById('lift-circuit-toggle').addEventListener('click', () => {
+    const list = document.getElementById('lift-circuit-list');
+    const toggle = document.getElementById('lift-circuit-toggle');
+    const isOpen = list.style.display === 'block';
+    list.style.display = isOpen ? 'none' : 'block';
+    toggle.textContent = isOpen ? 'View full circuit' : 'Hide circuit';
+  });
 
   document.getElementById('save-situation').addEventListener('click', async () => {
     const s = {
