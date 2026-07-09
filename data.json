@@ -21,28 +21,100 @@
   "doFirst": "Begin with filming a segment for VaughnFilm to break inertia.",
   "statusLine": "The focus is on leveraging high energy for creative output, balancing physical training and meaningful project progress.",
   "training": {
-    "recommendation": "You are currently in the rebuilding phase. Reinforce your foundation without overloading.",
-    "reasoning": "The sporadic running pattern indicates you're still easing back into a routine. The main issue is the absence of consistent strength work, especially your posterior chain and core, which are crucial for supporting knee health as you ramp up running.",
-    "caution": "If you keep focusing primarily on running without reinforcing your strength foundation, you risk exacerbating knee stress, leading to potential injury.",
-    "workoutType": "Strength and Mobility",
-    "workoutDuration": "45-55 min",
-    "workoutIntensity": "Moderate",
+    "recommendation": "Perform an easy run focusing on maintaining form and then complete a Lower body strength session.",
+    "reasoning": "Running consistency is rebuilding, and today is an opportunity to work on running economy and posterior-chain strength, which are current gaps. Energy is high, but we want to build gradually.",
+    "caution": "Monitor knees closely during both runs and lower body lifts. Avoid high-intensity or high-impact exercises.",
+    "workoutType": "Run + Lift",
+    "workoutDuration": "60 min",
+    "workoutIntensity": "Low",
     "main": [
-      "Hex/trap bar deadlift",
-      "Rear-foot-elevated split squat",
-      "Plank hold + alternating shoulder taps",
-      "Swiss ball DB crunch"
+      "Easy run focusing on form",
+      "Hex/trap bar deadlift"
     ],
     "warmup": [
-      "Stretch calves",
-      "Stretch quads",
-      "Stretch hip flexors",
-      "CARs for ankle"
+      "Controlled articular rotations for ankle, knee, hip",
+      "Dynamic leg swings"
     ],
     "cooldown": [
-      "Hip mobility exercises",
-      "Ankle mobility drills"
+      "Calf stretches",
+      "Hip flexor stretches"
     ],
-    "skip": "If you're low on energy, focus on a gentle stretching and mobility session for 20 minutes."
+    "optional": "Plank pull-through",
+    "skip": "High-intensity plyometrics",
+    "readiness": {
+      "status": "amber",
+      "sleepHours": "8.0",
+      "energy": "5",
+      "soreness": "not provided",
+      "note": "High energy but pay attention to knee health."
+    },
+    "runningStats": {
+      "last7": "7.3 miles",
+      "last14": "7.3 miles",
+      "last28": "23.3 miles",
+      "frequency": "2 runs in last 14 days",
+      "focus": "Building consistency without rushing volume."
+    },
+    "liftProgram": {
+      "nextLift": "Lower",
+      "mainMovement": "Hex/trap bar deadlift",
+      "accessory": "Rear-foot-elevated split squat",
+      "why": "Focus on neglected posterior-chain strength for running durability."
+    },
+    "weeklyTraining": [
+      {
+        "day": "Mon",
+        "type": "Rest",
+        "status": "rest"
+      },
+      {
+        "day": "Tue",
+        "type": "Run",
+        "status": "completed"
+      },
+      {
+        "day": "Wed",
+        "type": "Rest",
+        "status": "rest"
+      },
+      {
+        "day": "Thu",
+        "type": "Run + Lift",
+        "status": "planned"
+      },
+      {
+        "day": "Fri",
+        "type": "Rest",
+        "status": "planned"
+      },
+      {
+        "day": "Sat",
+        "type": "Hike",
+        "status": "planned"
+      },
+      {
+        "day": "Sun",
+        "type": "Push Lift",
+        "status": "planned"
+      }
+    ],
+    "movementMenu": [
+      {
+        "time": "10 min",
+        "recommendation": "Ankle mobility exercises"
+      },
+      {
+        "time": "25 min",
+        "recommendation": "Active recovery walk with dynamic stretches"
+      },
+      {
+        "time": "45 min",
+        "recommendation": "Easy run focusing on cadence and form"
+      },
+      {
+        "time": "75 min",
+        "recommendation": "Longer trail walk with light elevation"
+      }
+    ]
   }
 }
