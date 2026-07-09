@@ -637,7 +637,7 @@
     document.getElementById('run-7').textContent = r.last7;
     document.getElementById('run-14').textContent = r.last14;
     document.getElementById('run-28').textContent = r.last28;
-    document.getElementById('run-streak').textContent = r.streak;
+    document.getElementById('run-streak').textContent = r.frequency || r.streak;
     document.getElementById('run-focus').textContent = r.focus;
   }
 
@@ -649,7 +649,7 @@
   }
 
   function renderReadiness(r) {
-    document.getElementById('readiness-sleep').textContent = r.sleep;
+    document.getElementById('readiness-sleep').textContent = r.sleepHours ? r.sleepHours + ' hrs' : (r.sleep || 'n/a');
     document.getElementById('readiness-energy').textContent = r.energy + '/5';
     document.getElementById('readiness-soreness').textContent = r.soreness;
     document.getElementById('readiness-note').textContent = r.note;
@@ -657,7 +657,7 @@
 
   function renderMovementMenu(items) {
     document.getElementById('movement-list').innerHTML = items.map(m => `
-      <div class="movement-item"><span class="movement-dur mono">${m.duration}</span><span>${m.suggestion}</span></div>
+      <div class="movement-item"><span class="movement-dur mono">${m.time || m.duration}</span><span>${m.recommendation || m.suggestion}</span></div>
     `).join('');
   }
 
@@ -720,11 +720,11 @@
       renderWorkout(DEFAULTS.workout);
     }
 
-    renderWeeklyTraining(DEFAULTS.weeklyTraining);
-    renderRunning(DEFAULTS.running);
-    renderLift(DEFAULTS.lift);
-    renderReadiness(DEFAULTS.readiness);
-    renderMovementMenu(DEFAULTS.movementMenu);
+    renderWeeklyTraining(trainingLive?.weeklyTraining || DEFAULTS.weeklyTraining);
+    renderRunning(trainingLive?.runningStats || DEFAULTS.running);
+    renderLift(trainingLive?.liftProgram || DEFAULTS.lift);
+    renderReadiness(trainingLive?.readiness || DEFAULTS.readiness);
+    renderMovementMenu(trainingLive?.movementMenu || DEFAULTS.movementMenu);
     document.getElementById('athletic-identity').textContent = DEFAULTS.athleticIdentity;
   })();
 
