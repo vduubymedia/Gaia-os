@@ -21,45 +21,45 @@
   "doFirst": "Begin with filming a segment for VaughnFilm to break inertia.",
   "statusLine": "The focus is on leveraging high energy for creative output, balancing physical training and meaningful project progress.",
   "training": {
-    "recommendation": "Perform an easy run focusing on maintaining form and then complete a Lower body strength session.",
-    "reasoning": "Running consistency is rebuilding, and today is an opportunity to work on running economy and posterior-chain strength, which are current gaps. Energy is high, but we want to build gradually.",
-    "caution": "Monitor knees closely during both runs and lower body lifts. Avoid high-intensity or high-impact exercises.",
-    "workoutType": "Run + Lift",
-    "workoutDuration": "60 min",
-    "workoutIntensity": "Low",
+    "recommendation": "Today is a great day for a light aerobic run followed by mobility work. Prioritize easy pacing to support knee health.",
+    "reasoning": "Current running frequency is low with an aerobic base in rebuilding phase. Energy levels are high, but caution needed around knees. Aerobic work followed by mobility will help maintain consistency while minimizing injury risk.",
+    "caution": "Avoid high-impact or aggressive intensity to protect knees.",
+    "workoutType": "Run + Mobility",
+    "workoutDuration": "45 min",
+    "workoutIntensity": "Easy",
     "main": [
-      "Easy run focusing on form",
-      "Hex/trap bar deadlift"
+      "4.0 mi easy run",
+      "Focus on smooth, easy pacing"
     ],
     "warmup": [
-      "Controlled articular rotations for ankle, knee, hip",
-      "Dynamic leg swings"
+      "Dynamic stretches",
+      "Calf and hip flexor stretches"
     ],
     "cooldown": [
-      "Calf stretches",
-      "Hip flexor stretches"
+      "Walking cool down",
+      "Hip and ankle mobility exercises"
     ],
-    "optional": "Plank pull-through",
-    "skip": "High-intensity plyometrics",
+    "optional": "Slackline balance work",
+    "skip": "Speed workouts or high impact activities",
     "readiness": {
       "status": "amber",
       "sleepHours": "8.0",
       "energy": "5",
       "soreness": "not provided",
-      "note": "High energy but pay attention to knee health."
+      "note": "Data suggests potential for easy training. Prioritize knee caution."
     },
     "runningStats": {
-      "last7": "7.3 miles",
-      "last14": "7.3 miles",
-      "last28": "23.3 miles",
-      "frequency": "2 runs in last 14 days",
-      "focus": "Building consistency without rushing volume."
+      "last7": "7.3 mi",
+      "last14": "11.0 mi",
+      "last28": "16.2 mi",
+      "frequency": "3 runs in last 28 days",
+      "focus": "Rebuild aerobic base with easy efforts"
     },
     "liftProgram": {
-      "nextLift": "Lower",
-      "mainMovement": "Hex/trap bar deadlift",
-      "accessory": "Rear-foot-elevated split squat",
-      "why": "Focus on neglected posterior-chain strength for running durability."
+      "nextLift": "Pull",
+      "mainMovement": "Neutral grip chin-ups",
+      "accessory": "High incline neutral-grip DB curl",
+      "why": "Pull day is next in rotation with focus on upper body and core."
     },
     "weeklyTraining": [
       {
@@ -69,32 +69,32 @@
       },
       {
         "day": "Tue",
-        "type": "Run",
-        "status": "completed"
-      },
-      {
-        "day": "Wed",
         "type": "Rest",
         "status": "rest"
       },
       {
+        "day": "Wed",
+        "type": "Run",
+        "status": "completed"
+      },
+      {
         "day": "Thu",
-        "type": "Run + Lift",
+        "type": "Run + Mobility",
         "status": "planned"
       },
       {
         "day": "Fri",
-        "type": "Rest",
+        "type": "Lift — Pull",
         "status": "planned"
       },
       {
         "day": "Sat",
-        "type": "Hike",
+        "type": "Surf or Slackline",
         "status": "planned"
       },
       {
         "day": "Sun",
-        "type": "Push Lift",
+        "type": "Rest or Mobility",
         "status": "planned"
       }
     ],
@@ -105,15 +105,15 @@
       },
       {
         "time": "25 min",
-        "recommendation": "Active recovery walk with dynamic stretches"
+        "recommendation": "Easy pace walk with dynamic stretches"
       },
       {
         "time": "45 min",
-        "recommendation": "Easy run focusing on cadence and form"
+        "recommendation": "4.0 mi relaxed run"
       },
       {
         "time": "75 min",
-        "recommendation": "Longer trail walk with light elevation"
+        "recommendation": "Hiking or yoga to promote endurance and flexibility"
       }
     ]
   }
