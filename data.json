@@ -1,50 +1,54 @@
 {
   "training": {
-    "recommendation": "Focus on an easy 3-4 mile run to build consistency at an aerobic pace. Use the run to stay light and relaxed, maintaining knee health.",
-    "reasoning": "Your current running fitness is rebuilding. Recent runs have been easy, fitting the goal of gradual volume increase. Consistency is key at this stage.",
-    "caution": "Ensure that the run remains comfortable enough to prevent any knee discomfort. Avoid increasing distance or intensity prematurely.",
-    "workoutType": "Easy Run",
-    "workoutDuration": "40 min",
+    "recommendation": "Today is best suited for a lower-intensity aerobic workout, prioritizing consistency and knee durability. Consider a low-impact aerobic session, such as cycling or swimming, or an easy run if conditions are ideal.",
+    "reasoning": "Given your recent running frequency and knee durability focus, it's important to maintain aerobic base development with low injury risk. This session should complement your marathon rebuild without overloading.",
+    "caution": "Avoid high impact or intense workouts today to protect knee health.",
+    "workoutType": "Easy Aerobic",
+    "workoutDuration": "45 min",
     "workoutIntensity": "Low",
     "main": [
-      "3-4 mile run",
-      "at conversational pace"
+      "Easy cycling session",
+      "Swimming session"
     ],
     "warmup": [
-      "dynamic leg swings",
-      "gentle ankle circles"
+      "Dynamic stretching",
+      "Ankle CARs"
     ],
     "cooldown": [
-      "light stretching for hips and calves",
-      "deep breathing exercises"
+      "Static stretching for hips and calves",
+      "Breathing exercises"
     ],
-    "optional": "Add a 10-minute core stability routine if you feel up for it.",
-    "skip": "If you feel any knee discomfort, opt for a mobility workout instead.",
+    "optional": "Add 10 minutes of core and mobility work if energy permits.",
+    "skip": "Avoid any high-impact or high-intensity running.",
     "alternatives": [
       {
         "condition": "If surfing happens",
-        "recommendation": "Count surf as the main activity and integrate short mobility work post-surf."
+        "recommendation": "Count surf as the main athletic output; skip the aerobic session and do 10 minutes of hips and calves mobility."
+      },
+      {
+        "condition": "If time is short",
+        "recommendation": "Perform a 25-minute focused mobility and core session."
       }
     ],
     "readiness": {
-      "status": "green",
+      "status": "amber",
       "sleepHours": "8.0",
-      "energy": "5",
+      "energy": "not provided",
       "soreness": "not provided",
-      "note": "Your high energy and solid sleep make it a good day for aerobic base work."
+      "note": "Without energy and soreness data, maintain a conservative approach focusing on aerobic capacity and knee health."
     },
     "runningStats": {
       "last7": "7.3 mi",
-      "last14": "12.7 mi",
-      "last28": "16.3 mi",
-      "frequency": "3",
-      "focus": "Rebuild consistency with easy mileage."
+      "last14": "9.0 mi",
+      "last28": "22.6 mi",
+      "frequency": "4",
+      "focus": "Building aerobic consistency while ensuring knee protection."
     },
     "liftProgram": {
       "nextLift": "Pull",
       "mainMovement": "Neutral grip chin-ups",
       "accessory": "Seated mid neutral-grip row",
-      "why": "Ensure balanced development and support for upper body strength supporting activities like surfing."
+      "why": "Focus on upper body and core strength which has been less emphasized recently."
     },
     "weeklyTraining": [
       {
@@ -64,7 +68,7 @@
       },
       {
         "day": "Thu",
-        "type": "Easy Run",
+        "type": "Easy Aerobic",
         "status": "planned"
       },
       {
@@ -74,8 +78,8 @@
       },
       {
         "day": "Sat",
-        "type": "Rest",
-        "status": "planned"
+        "type": "Rest (unlogged)",
+        "status": "rest"
       },
       {
         "day": "Sun",
@@ -86,19 +90,19 @@
     "movementMenu": [
       {
         "time": "10 min",
-        "recommendation": "Quick stretch and mobility routine focusing on hips and ankles."
+        "recommendation": "Quick dynamic stretch and hip mobility session."
       },
       {
         "time": "25 min",
-        "recommendation": "Core and balance routine integrating planks, side planks, and bird-dogs."
+        "recommendation": "Focused core and mobility workout emphasizing knee health."
       },
       {
         "time": "45 min",
-        "recommendation": "Full-body mobility and flexibility session, incorporating yoga flows."
+        "recommendation": "Easy cycling or swimming session for low-impact endurance."
       },
       {
         "time": "75 min",
-        "recommendation": "Extended easy run combined with a thorough core and hip stability workout."
+        "recommendation": "Longer aerobic session focusing on steady, comfortable pace."
       }
     ]
   }
