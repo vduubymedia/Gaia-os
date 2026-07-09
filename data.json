@@ -1,1 +1,105 @@
-{}
+{
+  "training": {
+    "recommendation": "Focus on a controlled easy run today, around 3-4 miles, keeping the pace comfortable. Prioritize knee-friendly surfaces and include mobility work for hips and ankles afterwards.",
+    "reasoning": "With a current rebuilding phase, it's crucial to maintain consistency without stressing the knees. Energy levels are high, making this an ideal day for a manageable run to aid the marathon preparation.",
+    "caution": "Avoid pushing the pace too hard to ensure knee durability is not compromised.",
+    "workoutType": "Easy Run",
+    "workoutDuration": "40 min",
+    "workoutIntensity": "Easy",
+    "main": [
+      "Run 3-4 miles at comfortable pace",
+      "Focus on even surface"
+    ],
+    "warmup": [
+      "Dynamic stretches",
+      "Ankle CARs"
+    ],
+    "cooldown": [
+      "Hip mobility exercises",
+      "Calf stretch"
+    ],
+    "optional": "Include core work like planks if time allows.",
+    "skip": "Skip core work if energy drops or knees feel sensitive.",
+    "alternatives": [
+      {
+        "condition": "If surfing happens",
+        "recommendation": "Count the surfing session as the main workout; perform 10 minutes of post-surf mobility."
+      }
+    ],
+    "readiness": {
+      "status": "green",
+      "sleepHours": "8.0",
+      "energy": "5",
+      "soreness": "not provided",
+      "note": "Ready to engage in a controlled aerobic session."
+    },
+    "runningStats": {
+      "last7": "7.3 mi",
+      "last14": "7.3 mi",
+      "last28": "21.3 mi",
+      "frequency": "3 runs",
+      "focus": "Building consistency gently without stressing knees."
+    },
+    "liftProgram": {
+      "nextLift": "Pull",
+      "mainMovement": "Neutral grip chin-ups",
+      "accessory": "Barbell RDL",
+      "why": "Supporting posterior chain strength and midday recovery."
+    },
+    "weeklyTraining": [
+      {
+        "day": "Mon",
+        "type": "Rest (unlogged)",
+        "status": "rest"
+      },
+      {
+        "day": "Tue",
+        "type": "Run",
+        "status": "completed"
+      },
+      {
+        "day": "Wed",
+        "type": "Rest (unlogged)",
+        "status": "rest"
+      },
+      {
+        "day": "Thu",
+        "type": "Run",
+        "status": "planned"
+      },
+      {
+        "day": "Fri",
+        "type": "Pull Lifting",
+        "status": "planned"
+      },
+      {
+        "day": "Sat",
+        "type": "Cross-training",
+        "status": "planned"
+      },
+      {
+        "day": "Sun",
+        "type": "Long Run",
+        "status": "planned"
+      }
+    ],
+    "movementMenu": [
+      {
+        "time": "10 min",
+        "recommendation": "Quick dynamic stretches and ankle mobility."
+      },
+      {
+        "time": "25 min",
+        "recommendation": "Short easy run with post-run stretching."
+      },
+      {
+        "time": "45 min",
+        "recommendation": "Moderate run with focus on form and hip mobility post-run."
+      },
+      {
+        "time": "75 min",
+        "recommendation": "Longer easy run with comprehensive cooldown and stretching."
+      }
+    ]
+  }
+}
