@@ -5,10 +5,44 @@
   "risk": "Falling into a cycle of indecision or planning without executing, especially with recent tendencies to avoid completing ideas.",
   "recommendedSequence": "Start with filming or editing, then allocate time for freelance work that aligns with skill-building, and finally engage in physical activity to maintain energy levels.",
   "hardTruth": "Planning is becoming a form of procrastination; it’s essential to prioritize execution over mere ideation.",
-  "mustMove": ["Create or edit a piece of content for VaughnFilm", "Take time to engage in physical training to maintain focus."],
-  "shouldMove": ["Connect with a mentor or peer for feedback", "Review content strategy to align with your growth goals."],
-  "optional": ["Explore new ideas for the next project", "Engage with your following on social media."],
+  "mustMove": [
+    "Create or edit a piece of content for VaughnFilm",
+    "Take time to engage in physical training to maintain focus."
+  ],
+  "shouldMove": [
+    "Connect with a mentor or peer for feedback",
+    "Review content strategy to align with your growth goals."
+  ],
+  "optional": [
+    "Explore new ideas for the next project",
+    "Engage with your following on social media."
+  ],
   "primaryFocus": "Creating meaningful content",
   "doFirst": "Begin with filming a segment for VaughnFilm to break inertia.",
-  "statusLine": "The focus is on leveraging high energy for creative output, balancing physical training and meaningful project progress."
+  "statusLine": "The focus is on leveraging high energy for creative output, balancing physical training and meaningful project progress.",
+  "training": {
+    "recommendation": "You are currently in the rebuilding phase. Reinforce your foundation without overloading.",
+    "reasoning": "The sporadic running pattern indicates you're still easing back into a routine. The main issue is the absence of consistent strength work, especially your posterior chain and core, which are crucial for supporting knee health as you ramp up running.",
+    "caution": "If you keep focusing primarily on running without reinforcing your strength foundation, you risk exacerbating knee stress, leading to potential injury.",
+    "workoutType": "Strength and Mobility",
+    "workoutDuration": "45-55 min",
+    "workoutIntensity": "Moderate",
+    "main": [
+      "Hex/trap bar deadlift",
+      "Rear-foot-elevated split squat",
+      "Plank hold + alternating shoulder taps",
+      "Swiss ball DB crunch"
+    ],
+    "warmup": [
+      "Stretch calves",
+      "Stretch quads",
+      "Stretch hip flexors",
+      "CARs for ankle"
+    ],
+    "cooldown": [
+      "Hip mobility exercises",
+      "Ankle mobility drills"
+    ],
+    "skip": "If you're low on energy, focus on a gentle stretching and mobility session for 20 minutes."
+  }
 }
