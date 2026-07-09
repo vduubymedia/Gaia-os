@@ -1,29 +1,29 @@
 {
   "training": {
-    "recommendation": "Focus on a controlled easy run today, around 3-4 miles, keeping the pace comfortable. Prioritize knee-friendly surfaces and include mobility work for hips and ankles afterwards.",
-    "reasoning": "With a current rebuilding phase, it's crucial to maintain consistency without stressing the knees. Energy levels are high, making this an ideal day for a manageable run to aid the marathon preparation.",
-    "caution": "Avoid pushing the pace too hard to ensure knee durability is not compromised.",
+    "recommendation": "Focus on an easy 3-4 mile run to build consistency at an aerobic pace. Use the run to stay light and relaxed, maintaining knee health.",
+    "reasoning": "Your current running fitness is rebuilding. Recent runs have been easy, fitting the goal of gradual volume increase. Consistency is key at this stage.",
+    "caution": "Ensure that the run remains comfortable enough to prevent any knee discomfort. Avoid increasing distance or intensity prematurely.",
     "workoutType": "Easy Run",
     "workoutDuration": "40 min",
-    "workoutIntensity": "Easy",
+    "workoutIntensity": "Low",
     "main": [
-      "Run 3-4 miles at comfortable pace",
-      "Focus on even surface"
+      "3-4 mile run",
+      "at conversational pace"
     ],
     "warmup": [
-      "Dynamic stretches",
-      "Ankle CARs"
+      "dynamic leg swings",
+      "gentle ankle circles"
     ],
     "cooldown": [
-      "Hip mobility exercises",
-      "Calf stretch"
+      "light stretching for hips and calves",
+      "deep breathing exercises"
     ],
-    "optional": "Include core work like planks if time allows.",
-    "skip": "Skip core work if energy drops or knees feel sensitive.",
+    "optional": "Add a 10-minute core stability routine if you feel up for it.",
+    "skip": "If you feel any knee discomfort, opt for a mobility workout instead.",
     "alternatives": [
       {
         "condition": "If surfing happens",
-        "recommendation": "Count the surfing session as the main workout; perform 10 minutes of post-surf mobility."
+        "recommendation": "Count surf as the main activity and integrate short mobility work post-surf."
       }
     ],
     "readiness": {
@@ -31,20 +31,20 @@
       "sleepHours": "8.0",
       "energy": "5",
       "soreness": "not provided",
-      "note": "Ready to engage in a controlled aerobic session."
+      "note": "Your high energy and solid sleep make it a good day for aerobic base work."
     },
     "runningStats": {
       "last7": "7.3 mi",
-      "last14": "7.3 mi",
-      "last28": "21.3 mi",
-      "frequency": "3 runs",
-      "focus": "Building consistency gently without stressing knees."
+      "last14": "12.7 mi",
+      "last28": "16.3 mi",
+      "frequency": "3",
+      "focus": "Rebuild consistency with easy mileage."
     },
     "liftProgram": {
       "nextLift": "Pull",
       "mainMovement": "Neutral grip chin-ups",
-      "accessory": "Barbell RDL",
-      "why": "Supporting posterior chain strength and midday recovery."
+      "accessory": "Seated mid neutral-grip row",
+      "why": "Ensure balanced development and support for upper body strength supporting activities like surfing."
     },
     "weeklyTraining": [
       {
@@ -54,27 +54,27 @@
       },
       {
         "day": "Tue",
-        "type": "Run",
-        "status": "completed"
-      },
-      {
-        "day": "Wed",
         "type": "Rest (unlogged)",
         "status": "rest"
       },
       {
+        "day": "Wed",
+        "type": "Easy Run",
+        "status": "completed"
+      },
+      {
         "day": "Thu",
-        "type": "Run",
+        "type": "Easy Run",
         "status": "planned"
       },
       {
         "day": "Fri",
-        "type": "Pull Lifting",
+        "type": "Pull",
         "status": "planned"
       },
       {
         "day": "Sat",
-        "type": "Cross-training",
+        "type": "Rest",
         "status": "planned"
       },
       {
@@ -86,19 +86,19 @@
     "movementMenu": [
       {
         "time": "10 min",
-        "recommendation": "Quick dynamic stretches and ankle mobility."
+        "recommendation": "Quick stretch and mobility routine focusing on hips and ankles."
       },
       {
         "time": "25 min",
-        "recommendation": "Short easy run with post-run stretching."
+        "recommendation": "Core and balance routine integrating planks, side planks, and bird-dogs."
       },
       {
         "time": "45 min",
-        "recommendation": "Moderate run with focus on form and hip mobility post-run."
+        "recommendation": "Full-body mobility and flexibility session, incorporating yoga flows."
       },
       {
         "time": "75 min",
-        "recommendation": "Longer easy run with comprehensive cooldown and stretching."
+        "recommendation": "Extended easy run combined with a thorough core and hip stability workout."
       }
     ]
   }
