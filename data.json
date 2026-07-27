@@ -1,109 +1,28 @@
 {
-  "training": {
-    "recommendation": "Today is best suited for a lower-intensity aerobic workout, prioritizing consistency and knee durability. Consider a low-impact aerobic session, such as cycling or swimming, or an easy run if conditions are ideal.",
-    "reasoning": "Given your recent running frequency and knee durability focus, it's important to maintain aerobic base development with low injury risk. This session should complement your marathon rebuild without overloading.",
-    "caution": "Avoid high impact or intense workouts today to protect knee health.",
-    "workoutType": "Easy Aerobic",
-    "workoutDuration": "45 min",
-    "workoutIntensity": "Low",
-    "main": [
-      "Easy cycling session",
-      "Swimming session"
-    ],
-    "warmup": [
-      "Dynamic stretching",
-      "Ankle CARs"
-    ],
-    "cooldown": [
-      "Static stretching for hips and calves",
-      "Breathing exercises"
-    ],
-    "optional": "Add 10 minutes of core and mobility work if energy permits.",
-    "skip": "Avoid any high-impact or high-intensity running.",
-    "alternatives": [
-      {
-        "condition": "If surfing happens",
-        "recommendation": "Count surf as the main athletic output; skip the aerobic session and do 10 minutes of hips and calves mobility."
-      },
-      {
-        "condition": "If time is short",
-        "recommendation": "Perform a 25-minute focused mobility and core session."
-      }
-    ],
-    "readiness": {
-      "status": "amber",
-      "sleepHours": "8.0",
-      "energy": "not provided",
-      "soreness": "not provided",
-      "note": "Without energy and soreness data, maintain a conservative approach focusing on aerobic capacity and knee health."
+  "statusLine": "Today offers an open canvas for creativity and health, but requires focus to avoid drift.",
+  "primaryFocus": "Physical training and creative output",
+  "doFirst": "Start with a run to energize, then move to a prioritized creative task.",
+  "currentState": "You have an energy level of 3 and soreness is noted as part of testing, suggesting a need to balance movement with creativity.",
+  "mainPressure": "Competing draws between physical activity and the desire to generate creative output, especially while Gmail and Calendar are unavailable.",
+  "bestUseOfDay": "Harness physical activity to boost energy and creativity, then channel that momentum into content creation.",
+  "risk": "Drifting into low-effort tasks or social media consumption rather than meaningful work.",
+  "recommendedSequence": "Run, prioritize creative project, create content, and reevaluate energy for additional training or social time.",
+  "hardTruth": "Without a clear plan, it’s easy to lose the day to distractions instead of creating something meaningful.",
+  "mustMove": ["Go for a run", "Work on VaughnFilm content"],
+  "shouldMove": ["Stretch or engage in mobility work", "Draft ideas for upcoming projects"],
+  "optional": ["Explore social media for inspiration", "Read about filmmaking techniques"],
+  "workBlock": {
+    "primary": {
+      "title": "Create VaughnFilm content",
+      "duration": "2 hours",
+      "why": "This aligns directly with your long-term vision of building a meaningful brand and engaging your audience.",
+      "done": "Complete editing or a rough cut of a video, or finalize a script."
     },
-    "runningStats": {
-      "last7": "7.3 mi",
-      "last14": "9.0 mi",
-      "last28": "22.6 mi",
-      "frequency": "4",
-      "focus": "Building aerobic consistency while ensuring knee protection."
-    },
-    "liftProgram": {
-      "nextLift": "Pull",
-      "mainMovement": "Neutral grip chin-ups",
-      "accessory": "Seated mid neutral-grip row",
-      "why": "Focus on upper body and core strength which has been less emphasized recently."
-    },
-    "weeklyTraining": [
-      {
-        "day": "Mon",
-        "type": "Rest (unlogged)",
-        "status": "rest"
-      },
-      {
-        "day": "Tue",
-        "type": "Rest (unlogged)",
-        "status": "rest"
-      },
-      {
-        "day": "Wed",
-        "type": "Easy Run",
-        "status": "completed"
-      },
-      {
-        "day": "Thu",
-        "type": "Easy Aerobic",
-        "status": "planned"
-      },
-      {
-        "day": "Fri",
-        "type": "Pull",
-        "status": "planned"
-      },
-      {
-        "day": "Sat",
-        "type": "Rest (unlogged)",
-        "status": "rest"
-      },
-      {
-        "day": "Sun",
-        "type": "Long Run",
-        "status": "planned"
-      }
-    ],
-    "movementMenu": [
-      {
-        "time": "10 min",
-        "recommendation": "Quick dynamic stretch and hip mobility session."
-      },
-      {
-        "time": "25 min",
-        "recommendation": "Focused core and mobility workout emphasizing knee health."
-      },
-      {
-        "time": "45 min",
-        "recommendation": "Easy cycling or swimming session for low-impact endurance."
-      },
-      {
-        "time": "75 min",
-        "recommendation": "Longer aerobic session focusing on steady, comfortable pace."
-      }
-    ]
-  }
+    "secondary": {
+      "title": "Engage in mobility work",
+      "duration": "30 minutes",
+      "why": "To balance physical activity with recovery, ensuring sustained performance."
+    }
+  },
+  "importantEmails": []
 }
