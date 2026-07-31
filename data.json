@@ -1,19 +1,19 @@
 {
-  "statusLine": "Open day with high energy, focused on building momentum in creative projects.",
-  "primaryFocus": "Create meaningful output.",
-  "doFirst": "Start the day with a training session to boost energy and focus.",
-  "currentState": "Energy level is high at 5, but soreness is noted in the elbow, indicating the need for careful physical activity.",
-  "mainPressure": "Balancing physical training with creative output while avoiding distractions.",
-  "bestUseOfDay": "Dedicate time to content creation for VaughnFilm and work on WhiteSails.",
-  "risk": "The temptation to drift into social media scrolling instead of productive work is high.",
-  "recommendedSequence": "Train first, then dive into creative work for VaughnFilm along with project development for WhiteSails.",
-  "hardTruth": "The responsibility to create rests on you; the day can easily slip into unproductive habits unless actively managed.",
-  "mustMove": ["Workout to maintain physical health and focus", "Create at least one segment of content for VaughnFilm"],
-  "shouldMove": ["Outline next steps for WhiteSails", "Plan next adventure or training session"],
-  "optional": ["Catch up on reading or learning new skills", "Engage with social media in a structured way"],
+  "statusLine": "A day to harness energy towards tangible creative projects.",
+  "primaryFocus": "Building and creating",
+  "doFirst": "Start the day with a solid training session to kick off momentum.",
+  "currentState": "Energy is high at 5, with minimal soreness at 2, suggesting a good opportunity for physical activity first.",
+  "mainPressure": "Balancing physical training with real creative output to sustain momentum.",
+  "bestUseOfDay": "Prioritize meaningful creation over distractions while ensuring physical activation.",
+  "risk": "Falling into a routine of low-output tasks without making real progress on projects.",
+  "recommendedSequence": "Train first, then focus on a key creative project followed by connecting with your network.",
+  "hardTruth": "If you drift into passive consumption today, effective output will suffer, leading to wasted potential.",
+  "mustMove": ["Complete a training session", "Develop a new idea or scene for VaughnFilm"],
+  "shouldMove": ["Catch up on any current freelance projects", "Plan next week’s adventures or training schedule"],
+  "optional": ["Read up on filmmaking techniques", "Connect with mentors or peers"],
   "workBlock": {
-    "primary": { "title": "Content Creation for VaughnFilm", "duration": "2 hours", "why": "This aligns with your long-term vision of building an inspiring brand and growing your follower base.", "done": "Draft and edit one complete segment." },
-    "secondary": { "title": "Planning for WhiteSails", "duration": "1 hour", "why": "Clear outline of next steps is essential for maintaining momentum." }
+    "primary": { "title": "Film Project Development", "duration": "3 hours", "why": "This creates real output and pushes forward your creative goals.", "done": "Have a clear outline or a storyboard for the next scene." },
+    "secondary": { "title": "Freelance Work", "duration": "2 hours", "why": "This can build your network and income without overshadowing creative priorities." }
   },
   "importantEmails": []
 }
