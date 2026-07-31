@@ -1,19 +1,19 @@
 {
-  "statusLine": "A day to harness energy towards tangible creative projects.",
-  "primaryFocus": "Building and creating",
-  "doFirst": "Start the day with a solid training session to kick off momentum.",
-  "currentState": "Energy is high at 5, with minimal soreness at 2, suggesting a good opportunity for physical activity first.",
-  "mainPressure": "Balancing physical training with real creative output to sustain momentum.",
-  "bestUseOfDay": "Prioritize meaningful creation over distractions while ensuring physical activation.",
-  "risk": "Falling into a routine of low-output tasks without making real progress on projects.",
-  "recommendedSequence": "Train first, then focus on a key creative project followed by connecting with your network.",
-  "hardTruth": "If you drift into passive consumption today, effective output will suffer, leading to wasted potential.",
-  "mustMove": ["Complete a training session", "Develop a new idea or scene for VaughnFilm"],
-  "shouldMove": ["Catch up on any current freelance projects", "Plan next week’s adventures or training schedule"],
-  "optional": ["Read up on filmmaking techniques", "Connect with mentors or peers"],
+  "statusLine": "Today is a blank canvas ready for creative output and training.",
+  "primaryFocus": "Building momentum in filmmaking and physical training.",
+  "doFirst": "Prioritize an outdoor physical activity to kickstart your energy.",
+  "currentState": "You feel energized and not burdened by immediate deadlines, but potential distractions loom.",
+  "mainPressure": "Avoiding the trap of drifting without intentionality.",
+  "bestUseOfDay": "Focus on creating content and refining filmmaking skills while engaging in physical activity.",
+  "risk": "Becoming overwhelmed by new ideas without executing existing ones or getting lost in digital distractions.",
+  "recommendedSequence": "Engage in a workout, then dive into filmmaking tasks, and leave time for brainstorming.",
+  "hardTruth": "Without a solid focus today, distractions will easily pull you away from meaningful progress.",
+  "mustMove": ["Complete the Almost Finished Remote System", "Film or edit a short piece for VaughnFilm"],
+  "shouldMove": ["Run or surf to maintain athletic foundation", "Brainstorm new project ideas related to WhiteSails"],
+  "optional": ["Catch up on social media for connections", "Review filmmaking resources or courses"],
   "workBlock": {
-    "primary": { "title": "Film Project Development", "duration": "3 hours", "why": "This creates real output and pushes forward your creative goals.", "done": "Have a clear outline or a storyboard for the next scene." },
-    "secondary": { "title": "Freelance Work", "duration": "2 hours", "why": "This can build your network and income without overshadowing creative priorities." }
+    "primary": { "title": "Filmmaking Session", "duration": "3 hours", "why": "To build a strong content pipeline for VaughnFilm and enhance skills.", "done": "Finished editing a project or completed filming outdoor scenes." },
+    "secondary": { "title": "Physical Training", "duration": "1.5 hours", "why": "To sustain energy and clarity for creative tasks." }
   },
   "importantEmails": []
 }
