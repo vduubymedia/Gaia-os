@@ -1,28 +1,19 @@
 {
-  "statusLine": "Today offers an open canvas for creativity and health, but requires focus to avoid drift.",
-  "primaryFocus": "Physical training and creative output",
-  "doFirst": "Start with a run to energize, then move to a prioritized creative task.",
-  "currentState": "You have an energy level of 3 and soreness is noted as part of testing, suggesting a need to balance movement with creativity.",
-  "mainPressure": "Competing draws between physical activity and the desire to generate creative output, especially while Gmail and Calendar are unavailable.",
-  "bestUseOfDay": "Harness physical activity to boost energy and creativity, then channel that momentum into content creation.",
-  "risk": "Drifting into low-effort tasks or social media consumption rather than meaningful work.",
-  "recommendedSequence": "Run, prioritize creative project, create content, and reevaluate energy for additional training or social time.",
-  "hardTruth": "Without a clear plan, it’s easy to lose the day to distractions instead of creating something meaningful.",
-  "mustMove": ["Go for a run", "Work on VaughnFilm content"],
-  "shouldMove": ["Stretch or engage in mobility work", "Draft ideas for upcoming projects"],
-  "optional": ["Explore social media for inspiration", "Read about filmmaking techniques"],
+  "statusLine": "Open day with high energy, focused on building momentum in creative projects.",
+  "primaryFocus": "Create meaningful output.",
+  "doFirst": "Start the day with a training session to boost energy and focus.",
+  "currentState": "Energy level is high at 5, but soreness is noted in the elbow, indicating the need for careful physical activity.",
+  "mainPressure": "Balancing physical training with creative output while avoiding distractions.",
+  "bestUseOfDay": "Dedicate time to content creation for VaughnFilm and work on WhiteSails.",
+  "risk": "The temptation to drift into social media scrolling instead of productive work is high.",
+  "recommendedSequence": "Train first, then dive into creative work for VaughnFilm along with project development for WhiteSails.",
+  "hardTruth": "The responsibility to create rests on you; the day can easily slip into unproductive habits unless actively managed.",
+  "mustMove": ["Workout to maintain physical health and focus", "Create at least one segment of content for VaughnFilm"],
+  "shouldMove": ["Outline next steps for WhiteSails", "Plan next adventure or training session"],
+  "optional": ["Catch up on reading or learning new skills", "Engage with social media in a structured way"],
   "workBlock": {
-    "primary": {
-      "title": "Create VaughnFilm content",
-      "duration": "2 hours",
-      "why": "This aligns directly with your long-term vision of building a meaningful brand and engaging your audience.",
-      "done": "Complete editing or a rough cut of a video, or finalize a script."
-    },
-    "secondary": {
-      "title": "Engage in mobility work",
-      "duration": "30 minutes",
-      "why": "To balance physical activity with recovery, ensuring sustained performance."
-    }
+    "primary": { "title": "Content Creation for VaughnFilm", "duration": "2 hours", "why": "This aligns with your long-term vision of building an inspiring brand and growing your follower base.", "done": "Draft and edit one complete segment." },
+    "secondary": { "title": "Planning for WhiteSails", "duration": "1 hour", "why": "Clear outline of next steps is essential for maintaining momentum." }
   },
   "importantEmails": []
 }
